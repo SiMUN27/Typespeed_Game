@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="800.0" maxWidth="1200.0" minHeight="800.0" minWidth="1200.0" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #2d2e3d;" styleClass="mainMenuBg" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="typespeed_game.FXMLMainMenuController">
+   <children>
+      <VBox layoutX="459.0" layoutY="449.0" prefHeight="105.0" prefWidth="271.0" />
+      <Button id="btnPlayGame" fx:id="btnPlayGame" layoutX="456.0" layoutY="72.0" mnemonicParsing="false" onAction="#playGame" prefHeight="89.0" prefWidth="271.0" style="-fx-background-color: lightblue;" text="Play Game" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button id="btnExit" fx:id="btnExit" layoutX="460.0" layoutY="638.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="89.0" prefWidth="264.0" style="-fx-background-color: lightblue;" text="Exit">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <VBox layoutX="456.0" layoutY="193.0" prefHeight="105.0" prefWidth="271.0" />
+      <Button id="btnLeaderboard" fx:id="btnLeaderboard" layoutX="456.0" layoutY="449.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="271.0" style="-fx-background-color: lightblue;" text="Leaderboard">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button id="btnLoadGame" fx:id="btnLoadGame" layoutX="455.0" layoutY="246.0" mnemonicParsing="false" onAction="#loadGame" prefHeight="104.0" prefWidth="274.0" style="-fx-background-color: lightblue;" text="Load Game">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
